@@ -1,0 +1,91 @@
+
+body{
+	margin: 0;
+	background-color: #000000;
+}
+
+#buttonDiv, #logo{
+	background-color: none;
+	height: 100%;
+	width: 50%;
+	margin-right: 0;
+	display: flex;
+	position: relative;
+	}
+#navigate{
+	background-color: none;
+	width: 100vw;
+	height: 100px;
+	position: relative;	
+	display: flex;
+	box-shadow: 10px 10px 20px red;
+}
+
+#recent_work, #contact{
+	width: 10rem;
+	height: 2rem;
+	top: 60%;
+	margin-bottom: 0px; 
+	color: #ffffff;
+	background-color: #000000;
+	border: none;
+	position: relative;
+}
+
+#recent_work:hover, #contact:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#main{
+	width: 100vw;
+	height: 90vh;
+}
+
+#greet{
+	color: #ffffff;
+	width: 9cm;
+	font-size: 3rem;
+	margin-left: 15%; 
+	margin-top: 10%;
+	word-spacing: 10px;
+}
+
+#hire{
+	font-size: 2em;
+	width: 12em;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 50px;
+	margin-left: 15%;
+	background-color: #13F182;
+	border: none;
+	color: white;
+}
+
+#content{
+	color: white;
+	margin-left: 15%;
+	width: 10cm;
+}
+
+#hire:active{
+	background-color: red;
+	border: 5px;
+}
+
+#box{
+	width: 30px;
+	height: 30px;
+	background-color: yellow;
+	position: absolute;
+	transform: rotate(20deg);
+	box-shadow: 4px 4px 10px green;
+	display: inline;
+	top: 20%;
+	left: 70%;
+}
+
+
+
+
