@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSK Delivery Status</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RSK</h1>
+        </header>
+
+        <div class="search-bar">
+            <label for="search-input">Search:</label>
+            <input type="text" id="search-input" placeholder="Type anything" onkeyup="filterItems()">
+        </div>
+
+        <div class="content">
+            <div class="column">
+                <h2>REGAN</h2>
+                <table>
+                    <tr>
+                        <th>No.</th>
+                        <th>Person</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>RH200006558</td>
+                        <td>C.B Garay</td>
+                        <td><a href="view.html" class="view-btn">View</a></td>
+                        <td><button class="done-btn" onclick="toggleDone(this)">Done</button></td>
+                    </tr>
+                    <tr>
+                        <td>RH200006555</td>
+                        <td>ORMOC</td>
+                        <td><a href="#" class="view-btn">View</a></td>
+                        <td><button class="done-btn" onclick="toggleDone(this)">Done</button></td>
+                    </tr>
+                </table>
+                <button class="add-new-btn">Add New</button>
+            </div>
+
+            <div class="column">
+                <h2>SUPREME</h2>
+                <table>
+                    <tr>
+                        <th>No.</th>
+                        <th>Person</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>SH200003279</td>
+                        <td>UHM-NTU</td>
+                        <td><a href="#" class="view-btn">View</a></td>
+                        <td><button class="done-btn" onclick="toggleDone(this)">Done</button></td>
+                    </tr>
+                    <tr>
+                        <td>SH200003366</td>
+                        <td>VIC ONG</td>
+                        <td><a href="#" class="view-btn">View</a></td>
+                        <td><button class="done-btn" onclick="toggleDone(this)">Done</button></td>
+                    </tr>
+                </table>
+                <button class="add-new-btn">Add New</button>
+            </div>
+
+            <div class="column">
+                <h2>KIRIN</h2>
+                <table>
+                    <tr>
+                        <th>No.</th>
+                        <th>Person</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>KH200002545</td>
+                        <td>ALLIANCE</td>
+                        <td><a href="#" class="view-btn">View</a></td>
+                        <td><button class="done-btn" onclick="toggleDone(this)">Done</button></td>
+                    </tr>
+                    <tr>
+                        <td>KH200002544</td>
+                        <td>ALLIANCE</td>
+                        <td><a href="#" class="view-btn">View</a></td>
+                        <td><button class="done-btn" onclick="toggleDone(this)">Done</button></td>
+                    </tr>
+                </table>
+                <button class="add-new-btn">Add New</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
